@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-scanjs",
+  "version": "0.1.0",
+  "description": "umbrella config to get scanjs-like functionality from eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint": "^0.21.0",
+    "eslint-plugin-no-unsafe-innerhtml": "^0.1.0",
+    "eslint-plugin-scanjs-rules": "^0.1.0",
+  },
+  "devDependencies": {
+    "eslint": "^0.21.0",
+    "eslint-tester": "^0.6.0",
+    "mocha": "^2.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozfreddyb/eslint-config-scanjs.git"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint",
+    "scanjs",
+    "security"
+  ],
+  "author": "Frederik Braun",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mozfreddyb/eslint-config-scanjs/issues"
+  },
+  "homepage": "https://github.com/mozfreddyb/eslint-config-scanjs#readme"
+}
