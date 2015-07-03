@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    "scanjs-rules",
+    "no-unsafe-innerhtml"
+  ]
+}
+
