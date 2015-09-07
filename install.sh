@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 REQUIRED=$(npm list 2>/dev/null | grep 'UNMET DEPENDENCY ' | sed 's/.*UNMET DEPENDENCY //g' | tr '[:space:]' ' ')
 
