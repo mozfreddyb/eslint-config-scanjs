@@ -22,7 +22,7 @@ Or everything globally.
 ## Running
 ```sh
 cd project-to-scan/
-eslint --reset -c ~/.scanjs-eslintrc .
+eslint --no-eslintrc -c ~/.scanjs-eslintrc .
 ```
 
 ### Usage within IntelliJ IDEs (WebStorm, PyCharm etc.)
