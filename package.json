@@ -9,7 +9,7 @@
   "dependencies": {
     "eslint": ">=1.1.0",
     "eslint-plugin-no-unsafe-innerhtml": ">=0.1.9",
-    "eslint-plugin-scanjs-rules": ">=0.1.3"
+    "eslint-plugin-scanjs-rules": ">=0.1.4"
   },
   "repository": {
     "type": "git",

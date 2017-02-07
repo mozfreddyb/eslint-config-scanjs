@@ -3,13 +3,11 @@
 If you want to get something like ScanJS using ESLint. This is the config 
 file.
 
-## Installation
-
-To install, just execute this command
-
-`sudo ./install.sh`
-
-*Sorry, this needs root to install npm packages globally.*
+## Install
+```sh
+npm -g install
+* cp -v .eslintrc ~/.scanjs-eslintrc
+```
 
 <!--
 Note that a globally installed eslint can see only globally installed plugins.
