@@ -20,16 +20,13 @@ Or everything globally.
 ## Running
 ```sh
 cd project-to-scan/
-eslint --reset -c ~/.scanjs-eslintrc .
+eslint --no-eslintrc -c ~/.scanjs-eslintrc .
 ```
 
 ### Usage within IntelliJ IDEs (WebStorm, PyCharm etc.)
 1. Open the Settings dialog and navigate to **Languages & Frameworks → JavaScript → Code Quality Tools → ESLint**.
-2. **Enable it** and make sure your settings match your installation, especially:
-3. Use a **globally installed eslint package**, the installer will place this in */usr/lib/node_modules/eslint* or */usr/local/lib/node_modules/eslint*
-4. Reset the default rules, by providing **extra eslint options**, so we only use the provided scanjs-eslintrc. This disable the default eslint rules, which check for coding style, not security.
+2. **Enable ESLint** and make sure your settings match your installation:  Use a globally installed eslint package, the installer will place this in `/usr/lib/node_modules/eslint` or `usr/local/lib/node_modules/eslint`.
+3. **Supply the config path `~/.scanjs-eslintrc`**
+4. Reset the default rules, by providing **extra eslint options**, so we only use the provided config. This disables the default eslint rules, which check for coding style, not security: `--no-eslintrc -c ~/.scanjs-eslintrc .`
 
 
-You can also check out this screenshot below.
-
-![Settings for IntelliJ IDEs](./intellij-settings.png)
