@@ -16,6 +16,7 @@
     "no-unsafe-innerhtml/no-unsafe-innerhtml" : 2,
 
     /** ScanJS rules **/
+    "scanjs-rules/accidental_assignment": 1,
     "scanjs-rules/assign_to_hostname" : 1,
     "scanjs-rules/assign_to_href" : 1,
     "scanjs-rules/assign_to_location" : 1,
@@ -68,6 +69,7 @@
     "scanjs-rules/object_mozSystem" : 1,
     "scanjs-rules/property_addIdleObserver" : 1,
     "scanjs-rules/property_createContextualFragment" : 1,
+    "scanjs-rules/property_crypto": 1,
     "scanjs-rules/property_geolocation" : 1,
     "scanjs-rules/property_getDataStores" : 1,
     "scanjs-rules/property_getDeviceStorage" : 1,
