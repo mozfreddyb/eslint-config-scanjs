@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-scanjs",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "umbrella config to get scanjs-like functionality from eslint",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "eslint": ">=3.17.0",
-    "eslint-plugin-no-unsafe-innerhtml": ">=0.1.9",
-    "eslint-plugin-scanjs-rules": ">=0.1.5"
+    "eslint-plugin-no-unsanitized": ">=2.0.1",
+    "eslint-plugin-scanjs-rules": ">=0.1.8"
   },
   "repository": {
     "type": "git",
