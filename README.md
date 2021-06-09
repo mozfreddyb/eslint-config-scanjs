@@ -1,4 +1,8 @@
-# ScanJS Rules through ESLint.
+# This repository has been archived as read-only
+We recommend looking at https://github.com/mozilla/eslint-plugin-no-unsanitized
+if you are interested in xss-prevention techniques.
+
+## ScanJS Rules through ESLint.
 
 If you want to get something like ScanJS using ESLint. This is the config 
 file.
